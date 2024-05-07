@@ -31,8 +31,8 @@ jobs:
           
       - name: Commit changes
         run: |
-          git config --local user.email "diretsweuf"
-          git config --local user.name "MezeiOrmos@gmx.com"
+          git config --local user.email "MezeiOrmos@gmx.com"
+          git config --local user.name "diretsweuf"
           git add -A
           
           arr[0]="Admin(contributions): 😂 Add support for Hisense-hs530r"
